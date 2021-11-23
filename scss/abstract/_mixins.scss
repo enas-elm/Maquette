@@ -1,0 +1,25 @@
+@mixin a-part{
+    font-weight: bold;
+    border-radius: 0.25em;
+    padding: 0.75em 1em;
+    align-items: center;
+    img{
+        margin-left: 0.75em;
+    }
+}
+
+@mixin join-dot-square{
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin md-display-none{
+    @media (max-width: 768px){
+        display: none;
+}
+}
